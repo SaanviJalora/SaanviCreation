@@ -1,0 +1,65 @@
+<HTML>
+<style>
+/ Navbar container /
+.navbar {
+overflow: hidden;
+}
+
+/ Links inside the navbar /
+.navbar a {
+float: left;
+font-size: 16px;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+/ The dropdown container /
+.dropdown {
+float: left;
+overflow: hidden;
+font-size: 16px;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+
+/ Dropdown content (hidden by default) /
+.dropdown-content {
+display: none;
+position: absolute;
+min-width: 160px;
+z-index: 1;
+}
+
+/ Links inside the dropdown /
+.dropdown-content a {
+float: none;
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+font-family: Arial;
+display: block;
+text-align: left;
+}
+/ Show the dropdown menu on hover /
+.dropdown:HOVER .dropdown-content {
+display: block;
+}
+</style>
+<BODY>
+<div class="navbar">
+<a href="#home">Home</a>
+<a href="#news">News</a>
+<div class="dropdown">
+Dropdown
+<div class="dropdown-content">
+<a href="#">zodiac-1</a>
+<a href="#">Link 2</a>
+<a href="#">Link 3</a>
+</div>
+</div>
+</div>
+</body>
+</html>
